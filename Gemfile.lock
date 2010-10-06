@@ -1,0 +1,141 @@
+GIT
+  remote: git://github.com/indirect/jquery-rails.git
+  revision: 21a8e5bcb902e4335b56bb5b6df6705814bcb533
+  specs:
+    jquery-rails (0.2.1)
+      rails (~> 3.0.0)
+
+GIT
+  remote: git://github.com/josevalim/inherited_resources.git
+  revision: 2707d5e8687a533f5bfae7ca89796e8e9d6fe9b4
+  specs:
+    inherited_resources (1.1.2)
+      has_scope (~> 0.5.0)
+      responders (~> 0.6.0)
+
+GIT
+  remote: git://github.com/mislav/will_paginate.git
+  revision: 36159385c8a5837fc63fe901ebe0a88205b5ce8d
+  branch: rails3
+  specs:
+    will_paginate (3.0.pre2)
+
+GIT
+  remote: git://github.com/plataformatec/show_for.git
+  revision: 9a5f7af0cda8a46e145dc478207ee3e81ff872cf
+  specs:
+    show_for (0.2.3)
+
+GIT
+  remote: git://github.com/plataformatec/simple_form.git
+  revision: 8fba9f2556ad469abd85c70f267266aef85cc269
+  specs:
+    simple_form (1.2.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    actionmailer (3.0.0)
+      actionpack (= 3.0.0)
+      mail (~> 2.2.5)
+    actionpack (3.0.0)
+      activemodel (= 3.0.0)
+      activesupport (= 3.0.0)
+      builder (~> 2.1.2)
+      erubis (~> 2.6.6)
+      i18n (~> 0.4.1)
+      rack (~> 1.2.1)
+      rack-mount (~> 0.6.12)
+      rack-test (~> 0.5.4)
+      tzinfo (~> 0.3.23)
+    activemodel (3.0.0)
+      activesupport (= 3.0.0)
+      builder (~> 2.1.2)
+      i18n (~> 0.4.1)
+    activerecord (3.0.0)
+      activemodel (= 3.0.0)
+      activesupport (= 3.0.0)
+      arel (~> 1.0.0)
+      tzinfo (~> 0.3.23)
+    activeresource (3.0.0)
+      activemodel (= 3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
+    arel (1.0.1)
+      activesupport (~> 3.0.0)
+    bcrypt-ruby (2.1.2)
+    builder (2.1.2)
+    capistrano (2.5.19)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.0.0)
+    devise (1.1.3)
+      bcrypt-ruby (~> 2.1.2)
+      warden (~> 0.10.7)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    has_scope (0.5.0)
+    highline (1.6.1)
+    i18n (0.4.1)
+    mail (2.2.6.1)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.0.23)
+    net-ssh-gateway (1.0.1)
+      net-ssh (>= 1.99.1)
+    pg (0.9.0)
+    polyglot (0.3.1)
+    rack (1.2.1)
+    rack-mount (0.6.13)
+      rack (>= 1.0.0)
+    rack-test (0.5.6)
+      rack (>= 1.0)
+    rails (3.0.0)
+      actionmailer (= 3.0.0)
+      actionpack (= 3.0.0)
+      activerecord (= 3.0.0)
+      activeresource (= 3.0.0)
+      activesupport (= 3.0.0)
+      bundler (~> 1.0.0)
+      railties (= 3.0.0)
+    railties (3.0.0)
+      actionpack (= 3.0.0)
+      activesupport (= 3.0.0)
+      rake (>= 0.8.4)
+      thor (~> 0.14.0)
+    rake (0.8.7)
+    responders (0.6.2)
+    sqlite3-ruby (1.3.1)
+    thor (0.14.3)
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.23)
+    unicorn (1.1.4)
+      rack
+    warden (0.10.7)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capistrano
+  devise
+  inherited_resources!
+  jquery-rails!
+  pg
+  rails (= 3.0.0)
+  show_for!
+  simple_form!
+  sqlite3-ruby
+  unicorn
+  will_paginate!
